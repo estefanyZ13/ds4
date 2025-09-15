@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Source\\Repos\\ds4\\Laboratorio 1\\Laboratorio 1\\Laboratorio 1.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\ds4\\Laboratorio 1\\PracticaCasa\\PracticaCasa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Source\\Repos\\ds4\\Laboratorio 1\\Laboratorio 1\\Laboratorio 1.csproj": {
+    "C:\\Users\\HP\\source\\repos\\ds4\\Laboratorio 1\\PracticaCasa\\PracticaCasa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Source\\Repos\\ds4\\Laboratorio 1\\Laboratorio 1\\Laboratorio 1.csproj",
-        "projectName": "Laboratorio 1",
-        "projectPath": "C:\\Users\\HP\\Source\\Repos\\ds4\\Laboratorio 1\\Laboratorio 1\\Laboratorio 1.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ds4\\Laboratorio 1\\PracticaCasa\\PracticaCasa.csproj",
+        "projectName": "PracticaCasa",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\ds4\\Laboratorio 1\\PracticaCasa\\PracticaCasa.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Source\\Repos\\ds4\\Laboratorio 1\\Laboratorio 1\\obj\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\ds4\\Laboratorio 1\\PracticaCasa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
