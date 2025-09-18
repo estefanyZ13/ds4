@@ -2,8 +2,9 @@
 {
     private static void Main(string[] args)
     {
-        int  alturaRectangulo, baseRectangulo, perimetro;
+        int  alturaRectangulo, baseRectangulo;
 
+        CalculosMatematicos cal = new CalculosMatematicos();
 
         Console.Write("Introduce la altura del restangulo:");
         alturaRectangulo = Convert.ToInt32(Console.ReadLine());
@@ -12,9 +13,23 @@
         baseRectangulo = Convert.ToInt32(Console.ReadLine());
 
 
-        perimetro = 2*(alturaRectangulo +baseRectangulo);
+        
 
-        Console.WriteLine("La suma de {0} y {1} es {2}:", alturaRectangulo, baseRectangulo, perimetro);
+        Console.WriteLine("La suma de {0} y {1} es {2}:", alturaRectangulo, baseRectangulo, cal.Calculo(alturaRectangulo,baseRectangulo));
 
     }
 }
+
+public class CalculosMatematicos
+{
+    public int Calculo(int a, int b)
+    {
+        return 2 * (a + b);
+
+    }
+
+}
+
+
+
+

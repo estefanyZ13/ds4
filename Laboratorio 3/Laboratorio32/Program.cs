@@ -2,17 +2,27 @@
 {
     private static void Main(string[] args)
     {
-        double radioCirculo, calculoArea;
-    
+        double areaCirculo;
 
+        CalculosMatematicos cal = new CalculosMatematicos();
         Console.Write("Introduce el radio de la circunferencia :");
-        radioCirculo = Convert.ToInt32(Console.ReadLine());
+        areaCirculo = Convert.ToInt32(Console.ReadLine());
 
 
 
-        calculoArea = (3.1416 * (radioCirculo * radioCirculo));
+        Console.WriteLine("el  Area del Circulo   {0} es {1}:", areaCirculo, cal.calculoArea(areaCirculo));
 
-        Console.WriteLine("el  Area del Circulo   {0} es {1}:", radioCirculo, calculoArea);
+    }
+}
+
+
+
+public class CalculosMatematicos
+{
+    public double calculoArea(double a)
+    {
+        return 3.1416 * Math.Pow( a , 2);
+
 
     }
 }
