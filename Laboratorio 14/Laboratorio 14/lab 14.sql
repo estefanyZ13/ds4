@@ -10,3 +10,5 @@ create table Laptops (
 	stock float,
 	constraint pk_laptops primary key(id)
 );
+
+select * from Laptops
