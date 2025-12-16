@@ -1,3 +1,5 @@
+C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\obj\Debug\Laboratorio19.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\obj\Debug\Laboratorio19.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\bin\Laboratorio19.dll.config
 C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\bin\Laboratorio19.dll
 C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\bin\Laboratorio19.pdb
@@ -88,8 +90,6 @@ C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\bin\es\Sy
 C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\bin\es\System.Web.WebPages.resources.dll
 C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\obj\Debug\Laboratorio19.csproj.AssemblyReference.cache
-C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\obj\Debug\Laboratorio19.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\obj\Debug\Laborato.9157CB48.Up2Date
 C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\obj\Debug\Laboratorio19.dll
 C:\Users\HP\source\repos\ds4\Laboratorio19\Laboratorio19\Laboratorio19\obj\Debug\Laboratorio19.pdb

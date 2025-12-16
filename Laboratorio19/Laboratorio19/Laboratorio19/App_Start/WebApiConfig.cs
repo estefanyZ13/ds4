@@ -9,18 +9,18 @@ namespace Laboratorio19
     {
         public static void Register(HttpConfiguration config)
         {
-            // Configuración y servicios de Web API
-            // Rutas de Web API
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{action}/{id}",  // Agregada la barra "/" antes de {id}
+                routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            var formatter = GlobalConfiguration.Configuration.Formatters.JsonFormatter;
-            formatter.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver();
+            // 🔥 FORZAR JSON AUNQUE EL NAVEGADOR PIDA XML
+            config.Formatters.JsonFormatter.SupportedMediaTypes
+                .Add(new System.Net.Http.Headers.MediaTypeHeaderValue("text/html"));
         }
+
     }
 }

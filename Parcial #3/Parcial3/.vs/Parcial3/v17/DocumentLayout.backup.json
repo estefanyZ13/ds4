@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|c:\\users\\hp\\source\\repos\\ds4\\parcial #3\\parcial3\\parcial3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|solutionrelative:parcial3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\parcial3\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|solutionrelative:parcial3\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\parcial3\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|solutionrelative:parcial3\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Parcial3||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\parcial3\\articulodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|solutionrelative:parcial3\\articulodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\parcial3\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|solutionrelative:parcial3\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\parcial3\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|solutionrelative:parcial3\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34F369E-04D5-4158-96CD-334F2ACEF24C}|Parcial3\\Parcial3.csproj|c:\\users\\hp\\source\\repos\\ds4\\parcial #3\\parcial3\\parcial3\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Default.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Parcial3\\Default.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Default.aspx.designer.cs",
+              "RelativeToolTip": "Parcial3\\Default.aspx.designer.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAADwv64AAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T00:53:04.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Articulo.cs",
+              "RelativeDocumentMoniker": "Parcial3\\Articulo.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Articulo.cs",
+              "RelativeToolTip": "Parcial3\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T00:48:36.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArticuloDAL.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\ArticuloDAL.cs",
+              "RelativeDocumentMoniker": "Parcial3\\ArticuloDAL.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\ArticuloDAL.cs",
+              "RelativeToolTip": "Parcial3\\ArticuloDAL.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAkwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T00:47:35.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Parcial3",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Parcial3.csproj",
+              "RelativeDocumentMoniker": "Parcial3\\Parcial3.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Parcial3.csproj",
+              "RelativeToolTip": "Parcial3\\Parcial3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-03T00:33:03.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Parcial3\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Default.aspx.cs",
+              "RelativeToolTip": "Parcial3\\Default.aspx.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAkwLIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T00:25:05.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Default.aspx",
+              "RelativeDocumentMoniker": "Parcial3\\Default.aspx",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Default.aspx",
+              "RelativeToolTip": "Parcial3\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-03T00:24:39.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Web.config",
+              "RelativeDocumentMoniker": "Parcial3\\Web.config",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ds4\\Parcial #3\\Parcial3\\Parcial3\\Web.config",
+              "RelativeToolTip": "Parcial3\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-12-03T00:24:11.195Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

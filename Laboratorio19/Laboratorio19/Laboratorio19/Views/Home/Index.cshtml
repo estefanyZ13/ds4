@@ -1,26 +1,189 @@
 ﻿<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="aspnetTitle">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+    <!-- SECCIÓN DE INICIO -->
+    <section class="row" style="text-align:center; padding:20px;">
+        <h1 style="color:#6F4E37; font-weight:bold;">Bienvenido a Cafetería Dulce Aroma</h1>
+        <p class="lead" style="color:#5A4633;">
+            El mejor café, servido con el mejor ambiente.
+        </p>
+
+        <!-- BOTONES CENTRADOS Y SEPARADOS -->
+        <div style="display:flex; justify-content:center; gap:30px; margin-top:20px;">
+            <button class="btn btn-primary" onclick="verMenu()">
+                Ver Menú
+            </button>
+
+            <button class="btn btn-warning" onclick="mostrarFormularioPedido()">
+                Agregar Pedido
+            </button>
+
+
+            <button class="btn btn-success" onclick="verPedidos()">
+                VistaPedidos
+            </button>
+
+
+        </div>
+
+
     </section>
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>ASP.NET Web API is a framework that makes it easy to build HTTP services that reach
-            a broad range of clients, including browsers and mobile devices. ASP.NET Web API
-            is an ideal platform for building RESTful applications on the .NET Framework.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>
+    <div id="resultado" style="
+    background:#FFF3E6;
+    padding:20px;
+    border-radius:10px;
+    margin-top:25px;
+    font-size:18px;
+    color:#4A3B2C;
+">
+        <p style="text-align:center; color:#6F4E37;">
+            Aquí se mostrará el menú, pedidos o formulario
+        </p>
+    </div>
+
+
+    <!-- CONTENEDOR DE RESULTADOS -->
+    <!-- RESULTADO -->
+    <div id="resultado"></div>
+
+    <div id="formPedido" style="
+    display:none;
+    background:#FFF;
+    padding:20px;
+    border-radius:10px;
+    margin-top:20px;
+">
+        <h3>Agregar Pedido</h3>
+
+        <label>ID del Menú</label>
+        <input id="menuId" class="form-control" />
+
+        <label>Nombre del Cliente</label>
+        <input id="cliente" class="form-control" />
+
+        <label>Cantidad</label>
+        <input id="cantidad" type="number" class="form-control" />
+
+        <label>Total</label>
+        <input id="total" type="number" step="0.01" class="form-control" />
+
+        <br />
+        <button class="btn btn-success" onclick="guardarPedido()">
+            Guardar Pedido
+        </button>
+    </div>
+
+
+
+    <!-- SECCIONES DE INFO CAFETERÍA -->
+    <div class="row" style="margin-top:30px;">
+        <section class="col-md-4">
+            <h2 style="color:#6F4E37;">Café del día</h2>
+            <p>Aromático, fuerte y preparado al momento.</p>
         </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301871">Learn more &raquo;</a></p>
+
+        <section class="col-md-4">
+            <h2 style="color:#6F4E37;">Postres frescos</h2>
+            <p>Cheesecake, brownies, tartas y más.</p>
         </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
-        </section>>
+
+        <section class="col-md-4">
+            <h2 style="color:#6F4E37;">Servicio rápido</h2>
+            <p>Haz tu pedido y disfrútalo en minutos.</p>
+        </section>
     </div>
 </main>
+<script>
+
+    function verMenu() {
+        document.getElementById("formPedido").style.display = "none";
+
+        fetch('/api/Access/GetMenu')
+            .then(r => r.json())
+            .then(resp => {
+
+                if (resp.result !== 1) {
+                    document.getElementById("resultado").innerHTML =
+                        "<p style='color:red;'>Error al cargar menú</p>";
+                    return;
+                }
+
+                let html = `
+                <h3 style="color:#6F4E37;">Menú Disponible</h3>
+                <ul>
+            `;
+
+                resp.data.forEach(p => {
+                    html += `<li><b>${p.Nombre}</b> - $${p.Precio} (${p.Categoria})</li>`;
+                });
+
+                html += '</ul>';
+                document.getElementById("resultado").innerHTML = html;
+            });
+    }
+
+    function mostrarFormularioPedido() {
+        document.getElementById("resultado").innerHTML = "";
+        document.getElementById("formPedido").style.display = "block";
+    }
+
+    function guardarPedido() {
+
+        const pedido = {
+            MenuID: document.getElementById("menuId").value,
+            NombreCliente: document.getElementById("cliente").value,
+            Cantidad: document.getElementById("cantidad").value,
+            Total: document.getElementById("total").value
+        };
+
+        fetch('/api/Access/AddPedido', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(pedido)
+        })
+            .then(r => r.json())
+            .then(resp => {
+                if (resp.result === 1) {
+                    document.getElementById("resultado").innerHTML =
+                        "<p style='color:green;'>Pedido guardado correctamente ✅</p>";
+                    document.getElementById("formPedido").style.display = "none";
+                } else {
+                    document.getElementById("resultado").innerHTML =
+                        "<p style='color:red;'>Error al guardar pedido</p>";
+                }
+            });
+    }
+
+    function verPedidos() {
+        document.getElementById("formPedido").style.display = "none";
+
+        fetch('/api/Access/GetPedidos')
+            .then(r => r.json())
+            .then(resp => {
+
+                let html = `
+                <h3 style="color:#6F4E37;">Pedidos Realizados</h3>
+                <ul>
+            `;
+
+                resp.data.forEach(p => {
+                    html += `
+                    <li>
+                        <b>${p.Producto}</b> - ${p.Cliente}
+                        | Cant: ${p.Cantidad}
+                        | Total: $${p.Total}
+                    </li>
+                `;
+                });
+
+                html += '</ul>';
+                document.getElementById("resultado").innerHTML = html;
+            });
+    }
+
+</script>
+
+
+
+
+
+
+
