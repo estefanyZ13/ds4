@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "CafeteriaWebAPI\\CafeteriaWebAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "IIS Express (Microsoft Edge)"
+      },
+      {
+        "Path": "..\\CafeteriaWebForms\\CafeteriaWebForms.csproj",
+        "Action": "Start",
+        "DebugTarget": "IIS Express (Microsoft Edge)"
+      }
+    ]
+  }
+]

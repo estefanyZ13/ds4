@@ -1,0 +1,38 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Laboratorio 1/Laboratorio 1/.vs/Laboratorio 1
+/Laboratorio 1/Laboratorio 1/.vs/ProjectEvaluation
+/Laboratorio 1/PracticaCasa/.vs/PracticaCasa
+/Laboratorio 1/Laboratorio2/.vs/Laboratorio2
+/Laboratorio 2/Laboratorio2/.vs
+/Laboratorio 3/Laboratorio3/.vs
+/Laboratorio4/Laboratorio41/.vs/Laboratorio41
+/Laboratorio 5/Laboratorio 5-1/.vs
+/Laboratorio 6/Laboratorio 6/.vs/Laboratorio 6
+/Laboratorio 7/Laboratorio 7-1/.vs/Laboratorio 7-1
+/Laboratorio 7/Laboratorio 7-1/.vs/ProjectEvaluation
+/Laboratrio 8/Laboratorio  8-1/.vs
+/Laboratorio 2/.vs
+/Laboratorio 9/.vs
+/Laboratorio 9/Laboratorio 9-1/.vs
+/Laboratorio 10/Laboratorio 10-1/.vs/Laboratorio 10-1
+/Laboratorio 11/Laboratorio 11/.vs/Laboratorio 11
+/Parcial #1/Parcial 1/.vs
+/Laboratorio 12/Laboratorio 12-1/.vs
+/Laboratorio 12/Laborstorio 12-2/.vs
+/Laboratorio 13/Laboratorio 13/.vs/Laboratorio 13
+/Laboratorio 14/Laboratorio 14/.vs/Laboratorio 14
+/Laboratorio15/Laboratorio15-1/.vs/Laboratorio15-1
+/Laboratorio15-2/Laboartorio15-2/.vs
+/Laboratorio15-3/Laboratorio15-3/.vs/Laboratorio15-3
+/Parcial #2/Parcial#2/.vs/Parcial#2
+/Parcial #2/.vs
+/Laboratorio16/Laboratorio16-1/.vs/Laboratorio16-1
+/Laboratorio17/Laboratorio17-1/.vs/Laboratorio17-1
+/Labratorio18/Laboratorio18-1/.vs/Laboratorio18-1
+/Laboratorio19/Laboratorio19/.vs/Laboratorio19
+/Laboratorio20/Laboratorio201/.vs/Laboratorio201
+/CafeteriaFanny/CafeteriaFannyAPI/.vs/CafeteriaFannyAPI

@@ -1,0 +1,10 @@
+C:\Users\HP\source\repos\ds4\Laboratorio 14\Laboratorio 14\bin\Debug\Laboratorio 14.exe.config
+C:\Users\HP\source\repos\ds4\Laboratorio 14\Laboratorio 14\bin\Debug\Laboratorio 14.exe
+C:\Users\HP\source\repos\ds4\Laboratorio 14\Laboratorio 14\bin\Debug\Laboratorio 14.pdb
+C:\Users\HP\source\repos\ds4\Laboratorio 14\Laboratorio 14\obj\Debug\Laboratorio 14.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ds4\Laboratorio 14\Laboratorio 14\obj\Debug\Laboratorio_14.frmProductos.resources
+C:\Users\HP\source\repos\ds4\Laboratorio 14\Laboratorio 14\obj\Debug\Laboratorio_14.Properties.Resources.resources
+C:\Users\HP\source\repos\ds4\Laboratorio 14\Laboratorio 14\obj\Debug\Laboratorio 14.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\ds4\Laboratorio 14\Laboratorio 14\obj\Debug\Laboratorio 14.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ds4\Laboratorio 14\Laboratorio 14\obj\Debug\Laboratorio 14.exe
+C:\Users\HP\source\repos\ds4\Laboratorio 14\Laboratorio 14\obj\Debug\Laboratorio 14.pdb
